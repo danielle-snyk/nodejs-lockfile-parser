@@ -8,7 +8,7 @@
   "dependencies": {
     "@thebespokepixel/es-tinycolor": "^0.3.0",
     "@thebespokepixel/meta": "^0.2.2",
-    "@thebespokepixel/string": "^0.5.1",
+    "@thebespokepixel/string": "^0.5.10",
     "color-convert": "^1.9.2",
     "common-tags": "^1.8.0",
     "deep-assign": "^2.0.0",
