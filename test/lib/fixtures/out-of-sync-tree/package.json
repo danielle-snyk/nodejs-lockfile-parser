@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -14,10 +16,12 @@
     "aws-sdk": "^2.224.1",
     "axios": "^0.18.0",
     "bignumber.js": "^7.2.1",
-    "body-parser": "^1.18.2"
+    "body-parser": "^1.18.2",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "eslint": "5.9.0",
     "ava": "^0.25.0"
-  }
+  },
+  "snyk": true
 }
