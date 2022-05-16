@@ -6,7 +6,7 @@
   "main": "index.js",
   "module": "index.mjs",
   "dependencies": {
-    "debug": "2.0.x",
+    "debug": "2.6.7",
     "lodash": "4.17.11",
     "body-parser": "^1.18.2"
   },
